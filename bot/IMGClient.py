@@ -1,5 +1,5 @@
 from pyrogram import Client
-from sample_cofig import (API_ID, API_HASH, BOT_TOKEN)
+from cofig import (API_ID, API_HASH, BOT_TOKEN)
 
 
 class IMG(Client):
