@@ -4,3 +4,4 @@ __pycache__
 *.session
 .env
 downloads
+test.py
