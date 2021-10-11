@@ -1,7 +1,7 @@
 import requests
 
 
-def img_uploader(file_path: str):
+async def img_uploader(file_path: str):
     _params = {
         'key': '9076a9d6de80de9fc13ea32268c664ea',
     }
