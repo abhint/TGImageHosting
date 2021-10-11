@@ -1,4 +1,5 @@
 # TGImageHosting
+#### *This is a simple bot that can be used to upload images to a third party cloud (image hosting). Currently, only the imgbb.com website supports the bot. Will do future updates*
 
 ## What is about this bot ?
 * This bot uploads telegram files to a third-party server.
