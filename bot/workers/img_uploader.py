@@ -15,5 +15,5 @@ async def img_uploader(file_path: str, msg=None):
         response = _response.json()
         return response
     except Exception as e:
-        await msg.reply('Uploading error 😓')
+        await msg.edit_text('Uploading error 😓')
         return
