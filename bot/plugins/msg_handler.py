@@ -1,6 +1,5 @@
 from ..IMGClient import IMG
 from pyrogram import filters
-from pyrogram.types import Message
 from ..workers.img_uploader import img_uploader
 from ..workers.img_remove import deleteME
 
