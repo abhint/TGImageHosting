@@ -1,0 +1,25 @@
+{
+  "name": "TGImageHosting",
+  "description": "This is a simple bot that can be used to upload images to a third-party cloud (image hosting).",
+  "repository": "https://github.com/AbhijithNT/TGImageHosting/",
+  "keywords": ["telegram", "pyrogram", "telegram-bot", "bot"],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your Bot token from @Botfather",
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "Your API_ID from https://my.telegram.org/apps ",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Your API_HASH from https://my.telegram.org/apps",
+      "value": ""
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
