@@ -2,6 +2,7 @@ from ..IMGClient import IMG
 from pyrogram import filters
 from pyrogram.types import Message
 from ..workers.img_uploader import img_uploader
+from ..workers.img_remove import deleteME
 
 
 @IMG.on_message(filters.photo)
@@ -11,8 +12,6 @@ async def onPhotho(client, msg):
     if (responce is None):
         return
     title = responce['data']['title']
-
-    # print(see['data']['url'])
     await client.send_message(
         chat_id=msg.chat.id,
         text=
@@ -20,3 +19,4 @@ async def onPhotho(client, msg):
         parse_mode="markdown",
         reply_to_message_id=msg.message_id,
     )
+    await deleteME(file_path=file_path)
