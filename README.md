@@ -5,6 +5,10 @@
 ## Usage
 * Send any file or bot. Then select the third-party server you want to upload to.
 
+## Heroku Deploy
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 ### Installation
 
 #### 1. Clone the project repository
@@ -47,3 +51,4 @@ BOT_TOKEN=
 ```sh
 $ python -m bot
 ```
+
